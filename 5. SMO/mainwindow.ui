@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>477</width>
+    <height>314</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>5</string>
+  </property>
+  <widget class="QLabel" name="label_op1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op0">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>75</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_comp_title">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>162</y>
+     <width>147</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Компьютеры:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_comp0">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>181</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>131</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_comp1">
+   <property name="geometry">
+    <rect>
+     <x>16</x>
+     <y>209</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_lost_clients_title">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>150</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вероятность отказа:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_clients_title">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Заявки:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op_title">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>56</y>
+     <width>138</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Операторы:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_model">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>111</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Рассчитать</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_lost_clients">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>170</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op1_m">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>104</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>40</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op1_pm">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>105</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op1_d">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>105</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op2_pm">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>133</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op2_d">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>133</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>20</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op2_m">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>132</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>40</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_client_pm">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_client_m">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>29</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_client_d">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op0_m">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>76</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>20</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_op0_pm">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>77</y>
+     <width>24</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>+-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_op0_d">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>77</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_client_count_title">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Всего заявок</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_client_count">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>300</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_comp0_m">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>182</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>15</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_comp1_m">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>30</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lost">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>120</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_client_count_title_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>100</y>
+     <width>115</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Потеряно:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
